@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top 10 G20 Countries Spending Analysis (Education)</title>
+  <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+  <script src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript" src="./script/edu.js"></script>
+  
+
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <h1>
+              <a href="index.html">Spending Analysis of </br> Top 10 G20 Countries</span></br></a>
+          </h1>
+          <h2>
+            Military</br>
+            Education</br> 
+            Healthcare</br>             
+            </h2>  
+        </div>
+      </div>
+
+      <div id="menubar">
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="military.html">Military</a></li>
+          <li class="selected"><a href="education.html">Education</a></li>
+          <li><a href="health.html">Healthcare</a></li>
+          <li><a href="conclusions.html">Conclusions</a></li>
+        </ul>
+      </div>
+      
+    </div>
+
+    <div id="site_content">
+      <div class="sidebar">
+        <h3>Author</h3>
+        <h4>Hao Ning<br></h4>
+        <h5>
+          GWU Data Science</br>
+          <a href="mailto:hning@gwu.edu">hning@gwu.edu</a>
+        </h5>
+        <p>Individual Project1 for DATS6401 Visualizing the Complex Data <br></p>
+        <h5>Instructor: Dr. Nima Zahadat</h5>
+		
+        <h3>Data Source</h3>
+        <ul>
+          <li><a href="https://www.worldbank.org/">World Bank</a></li>
+        </ul>
+
+        <h3>Tools</h3>
+        <ul>
+          <li><a href="https://developers.google.com/chart/interactive/docs/gallery">Google Visualization API</a></li>
+          <li><a href="https://jupyter.org/">Jupyter Notebook</a></li>
+          <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+          <li><a href="https://icons8.com/">Icons8</a></li>
+        </ul>
+      </div>
+
+    <div id="content">      
+      <h3 class="edu">Education Spending Compared to GDP(%) 2011-2016</h3>
+      <div id="edu_percent_div" style="width:700px; height:400px;"></div>
+      <br>
+      <ul>
+        <li><span class="bold">Brazil (as a developing country)</span> has the <span class="highlight"> remarkable highest 6% </span> share of GDP in education, also showing a trend of increasing</li>
+        <li>No obvious trend for other countries</li>
+        <li>All developed countries show similar high education spending in %</li>
+        <li><span class="bold">China</span> has the <span class="highlight">lowest</span> share of GDP in education</li>
+      </ul>
+      <br>
+
+      <div class="edu">Overall Education Spending vs Military (2011-2016 Average)</div>
+      <div id="compare_overall_edu_div" style="width:700px; height:400px;"></div>
+      <br>
+      <ul>
+        <li>China has higher military spending than education</li>
+        <li>US and China are the higher end of education/militray spending ratio</li>
+      </ul>
+      <br>      
+
+      <div class="edu">Per capita Education Spending vs Per capita GDP (2011-2016 Average)</div>
+      <div id="compare_percap_edu_div" style="width:700px; height:400px;"></div>
+      <br>
+      <ul>
+        <li>Positive correlate observed</li>
+        <li>Developed countries have similar high education spending per person</li>
+        <li>From the slope, we can see that <span class="bold">Brazil </span> still spend the highest ratio of per person education compared to their per person GDP</li>
+      </ul>
+      <br>      
+
+      <div class="edu">Education Spending Growth in Absolute (2011-2016)</div>
+      <div id="growth_abs_edu_div" style="width:700px; height:500px;"></div>
+      <br>
+      <ul>
+        <li>Most countries have no obvious trend for education spending</li>
+        <li>US & China increased the education spending</li>
+      </ul>
+      <br>
+
+      
+      <div class="edu">Education Spending Growth in Percentage (2011-2016)</div>
+      <div id="growth_percent_edu_div" style="width:700px; height:500px;"></div>
+      <br>
+      <ul>
+        <li>China and India showed obvious growth in education spending in percentage </li>
+        <li class='bold'>China showed fastest growth in percentage</li>
+      </ul>
+      <br> 
+      <br> 
+
+        
+        
+      </div>
+    </div><!--content-->
+
+    </div><!--site_content-->
+	
+    <div id="content_footer"></div>
+    <div id="footer">
+      Copyright &copy; <script>var d = new Date(); document.write(d.getFullYear());</script>
+      | Hao Ning |
+    </div>
+  </div><!--main-->
+  
+</body>
+</html>

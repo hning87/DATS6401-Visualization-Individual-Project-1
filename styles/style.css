@@ -1,0 +1,334 @@
+html {
+	height: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: normal 0.78em arial, sans-serif;
+	background: #fff;
+	color: #555;
+	
+}
+
+p {
+	padding: 0 0 16px 0;
+	line-height: 1.7em;
+	font: normal 175% 'Times New Roman', arial, sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font: normal 150% 'Times New Roman', arial, sans-serif;
+	color: #111;
+	margin: 0 0 15px 0;
+	padding: 15px 0 5px 0;
+}
+
+h2 {
+	color: #222;
+}
+
+h3 {
+	color: #333;
+}
+
+h4, h5, h6 {
+	margin: 0;
+	padding: 0 0 5px 0;
+	font: normal 120% arial, sans-serif;
+	color: #555;
+}
+
+h5, h6 {
+	font: italic 95% arial, sans-serif;
+	padding: 0 0 15px 0;
+	color: #000;
+}
+
+h6 {
+	color: #888;
+}
+
+a, 
+a:hover {
+	outline: none;
+	color: #111;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul {
+	margin: 2px 0 22px 17px;
+}
+
+ul li {
+	list-style-type: disc;
+	margin: 0 0 6px 0;
+	padding: 0 0 4px 5px;
+}
+
+
+#main, #header, #logo, #menubar, #site_content, #footer {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main {
+	width: 1020px;
+}
+
+#header {
+	width: 1000px;
+}
+
+#logo {
+	width: 990px;
+	position: relative;
+	height: 200px;
+	background: url(../images/G20_flags.jpg) no-repeat;
+	background-size: 40%;
+	background-position: 90% 40%;
+}
+
+#logo_text {
+	position: absolute;
+	top: 0px;
+	left: 10px;
+}
+
+#logo h1, #logo h2 {
+	font: normal 250% 'Times New Roman', arial, sans-serif;
+	border-bottom: 0;
+	color: white;
+	text-transform: none;
+	margin: 0;
+}
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover {
+	padding: 10px 0 0 0;
+	color: black;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+#logo_text h2, #logo_text h2 a, #logo_text h2 a:hover {
+	padding: 10px 0 0 0;
+	color: black;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+.logo_color {
+	color: #555;
+}
+
+#logo_text h2 {
+	font-size: 175%;
+	padding: 0;
+	color: maroon;
+}
+
+
+#menubar {
+	width: 1000px;
+	height: 35px;
+	padding: 10px 0 0 0;
+	margin: 0 0 0 0;
+	z-index: 1;
+	float: left;
+	background: #004d1a;
+}
+
+ul#menu {
+	float: left;
+	margin: 0;
+}
+
+ul#menu li {
+	float: left;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0px;
+	list-style: none;
+}
+ul#menu li a {
+	letter-spacing: 0em;
+	font: normal 100% arial, sans-serif;
+	text-transform: uppercase;
+	display: block;
+	float: inline-start;
+	height: 20px;
+	text-decoration: none;
+	padding: 10px 22px 5px 16px;
+	text-align: center;
+	color: #fff;
+	border: 0;
+}
+
+ul#menu li.selected a {
+	height: 25px;
+	color: #111;
+	padding: 10px 22px 5px 16px;
+	font-weight:bold;
+	
+}
+
+ul#menu li.selected {
+	margin: 0 0 0 0;
+	background: #f8f8f8;
+}
+
+ul#menu li a:hover {
+	color: #777;
+}
+
+#site_content {
+	width: 1000px;
+	overflow: hidden;
+	background: #f8f8f8;
+}
+
+
+#site_content p{
+	line-height: 1.7em;
+	font: normal 90% 'Times New Roman', arial, sans-serif;
+	color:#222;
+}
+
+
+/* create unique background icon for class: .USD, military, education and health*/
+
+.USD{
+	position: relative;
+	padding: 10px 0 0 35px;
+	font: normal 120% arial, sans-serif;
+	color: black;
+	letter-spacing: 0em;	
+	font-weight:bold;
+	line-height: 1.5;
+	background: url(../images/dollar.png) no-repeat left bottom;
+	background-size: 4%;
+}
+
+.military{
+	position: relative;
+	padding: 10px 0 0 35px;
+	font: normal 120% arial, sans-serif;
+	color: black;
+	letter-spacing: 0em;	
+	font-weight:bold;
+	line-height: 1.5;
+	background: url(../images/military.png) no-repeat left bottom;
+	background-size: 5%;
+}
+
+.edu {
+	position: relative;
+	padding: 5px 0 0 35px;
+	font: normal 120% arial, sans-serif;
+	color: black;
+	letter-spacing: 0em;	
+	font-weight:bold;
+	line-height: 1.5;
+	background: url(../images/edu.png) no-repeat left bottom;
+	background-size: 4.5%;
+}
+
+.health {
+	position: relative;
+	padding: 10px 0 0 35px;
+	font: normal 120% arial, sans-serif;
+	/* color: black; */
+	letter-spacing: 0em;	
+	font-weight:bold;
+	line-height: 1.5;
+	background: url(../images/health2.png) no-repeat left bottom;
+	background-size: 4.5%;
+}
+
+.sidebar {
+	float: right;
+	width: 198px;
+	padding: 20px 25px 15px 15px;
+}
+
+.sidebar ul {
+	width: 178px;
+	padding: 4px 0 0 0;
+	margin: 4px 0 30px 0;
+}
+
+.sidebar li {
+	list-style: none;
+	padding: 0 0 7px 0;
+}
+
+.sidebar li a,
+.sidebar li a:hover {
+	position: relative;
+	background: url(../images/link.png) no-repeat left center;
+	background-size: 8%;
+	padding: 0 0 0 40px;
+	display: block;
+	text-decoration: underline blue;
+	
+}
+
+.sidebar li a:hover {
+	text-decoration: none;
+}
+
+
+
+#content p {
+	letter-spacing: 0em;
+	font: normal 100% arial, sans-serif;
+	padding: 5px 0 0 0;
+	line-height: 1.5;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+.highlight {
+	color: red;
+	font-weight:bold;
+}
+
+#content {
+	text-align: left;
+	width: 700px;
+	float: left;
+	padding: 20px 0 20px 20px;
+}
+
+#content h1 {
+	font-weight:bold;
+}
+
+
+#content h3 {
+	font-weight:bold;
+}
+
+
+#footer {
+	width: 1000px;
+	height: 33px;
+	padding: 15px 0 4px 0;
+	text-align: center;
+	background: #004d1a;
+	color: #aaa;
+	border-top: 1px solid #fff;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	font-size: 80%;
+}

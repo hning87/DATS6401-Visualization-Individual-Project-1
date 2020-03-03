@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top 10 G20 Countries Spending Analysis (Healthcare)</title>
+  <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+  <script src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript" src="./script/health.js"></script>
+  
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <h1>
+              <a href="index.html">Spending Analysis of </br> Top 10 G20 Countries</span></br></a>
+          </h1>
+          <h2>
+            Military</br>
+            Education</br> 
+            Healthcare</br>             
+            </h2>  
+        </div>
+      </div>
+
+      <div id="menubar">
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="military.html">Military</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li class="selected"><a href="health.html">Healthcare</a></li>
+          <li><a href="conclusions.html">Conclusions</a></li>
+        </ul>
+      </div>
+      
+    </div>
+
+    <div id="site_content">
+      <div class="sidebar">
+        <h3>Author</h3>
+        <h4>Hao Ning<br></h4>
+        <h5>
+          GWU Data Science</br>
+          <a href="mailto:hning@gwu.edu">hning@gwu.edu</a>
+        </h5>
+        <p>Individual Project1 for DATS6401 Visualizing the Complex Data <br></p>
+        <h5>Instructor: Dr. Nima Zahadat</h5>
+		
+        <h3>Data Source</h3>
+        <ul>
+          <li><a href="https://www.worldbank.org/">World Bank</a></li>
+        </ul>
+
+        <h3>Tools</h3>
+        <ul>
+          <li><a href="https://developers.google.com/chart/interactive/docs/gallery">Google Visualization API</a></li>
+          <li><a href="https://jupyter.org/">Jupyter Notebook</a></li>
+          <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+          <li><a href="https://icons8.com/">Icons8</a></li>
+        </ul>
+      </div>
+
+    <div id="content">
+      <h3 class="health">Health Spending Compared to GDP(%) 2011-2016</h3>
+      <div id="health_percent_div" style="width:700px; height:400px;"></div>
+      <br>
+      <ul>
+        <li><span class="bold">US</span> is far exceeding other countries in health spending <span class="highlight"> 17%</span> share of GDP</li>
+        <li class="bold">Brazil (as a developing country) has high spending share of GDP in healthcare, comparable to other developed countries</li>
+        <li>All developed countries show similar high healthcare spending compared to GDP</li>
+        <li>Healthcare spending remains consistent for all countries</li>
+      </ul>
+      <br>
+
+      <h3 class="health">Overall Healthcare Spending vs Military (2011-2016 Average)</h3>
+      <div id="compare_overall_health_div" style="width:700px; height:400px;"></div>
+      <br>
+      <ul>
+        <li>Healthcare represents the largest expense for all countries!</li>
+      </ul>
+      <br>      
+
+      <h3 class="health">Per capita Healthcare Spending vs Per capita GDP (2011-2016 Average)</h3>
+      <div id="compare_percap_health_div" style="width:y00px; height:400px;"></div>
+      <br>
+      <ul>        
+        <li>Developed countries have similar high healthcare spending per person</li>
+        <li>Brazil spend more in healthcare than other developing countries</li>
+      </ul>
+      <br>      
+
+      <h3 class="health">Healthcare Spending Growth in Absolute (2011-2016)</h3>
+      <div id="growth_abs_health_div" style="width:700px; height:500px;"></div>
+      <br>
+      <ul>
+        <li>No obvious trend observed for healthcarespending</li>
+        <li>US & China increased the healthcare spending</li>
+        <li class='bold'>US has the fastest growth in absolute value</li>
+      </ul>
+      <br>
+      
+      <h3 class="health">Healthcare Spending Growth in Percentage (2011-2016)</h3>
+      <div id="growth_percent_health_div" style="width:700px; height:500px;"></div>
+      <br>
+      <ul>
+        <li>No huge percentage change for most of countries</li>
+        <li>China, US and India showed consitent increase</li>
+        <li class='bold'>China showed fastest growth in percentage</li>
+      </ul>
+      <br> 
+      <br> 
+
+      </div>
+    </div><!--content-->
+
+    </div><!--site_content-->
+	
+    <div id="content_footer"></div>
+    <div id="footer">
+      Copyright &copy; <script>var d = new Date(); document.write(d.getFullYear());</script>
+      | Hao Ning |
+    </div>
+  </div><!--main-->
+  
+</body>
+</html>
