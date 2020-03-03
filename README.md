@@ -1,4 +1,4 @@
-# DATS6401-Visualization-Individual-Project-1
+# DATS6401-Visualization-Individual-Project
 # Spending Analysis of Top 10 G20 Countries
 
 ## Introduction
