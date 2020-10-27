@@ -2,7 +2,8 @@
 # Spending Analysis of Top 10 G20 Countries
 
 ## Introduction
-This project aims to explore the spending behaviors of the leading countries in G20. We will find out the latest trend of the military, education and healthcare expenditures of the top 10 countries in G20 (United States, China, Japan, United Kingdom, India, Germany, Brazil, France, Italy, Canada). Data of 6 years from 2011 to 2016 are investigated in detail in this project.
+This project aims to explore the spending behaviors of the leading countries in G20. We will find out the latest trend of the military, education and healthcare expenditures of the top 10 countries in G20 (United States, China, Japan, United Kingdom, India, Germany, Brazil, France, Italy, Canada). Data of 6 years from 2011 to 2016 are investigated in detail in this project.  
+Visualization webpage: https://hning87.github.io/DATS6401-Visualization-Individual-Project-1/  
 
 ## Data Source
 https://data.worldbank.org/
